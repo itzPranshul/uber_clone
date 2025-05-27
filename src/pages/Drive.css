@@ -1,0 +1,101 @@
+.drive-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #111;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.drive-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.drive-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+  color: #000;
+}
+
+.drive-header p {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+.drive-benefits {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.05);
+  text-align: center;
+}
+
+.drive-benefits h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.benefit-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.benefit-card {
+  max-width: 220px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+  transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+}
+
+.benefit-card img {
+  width: 64px;
+  margin-bottom: 1rem;
+}
+
+.benefit-card h4 {
+  margin-bottom: 0.6rem;
+  font-weight: 600;
+}
+
+.benefit-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.drive-cta {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.drive-cta h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: #1fb6ff;
+  border: none;
+  color: white;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0ea5e9;
+}
